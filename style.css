@@ -1,0 +1,51 @@
+a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: green;
+  }
+  a:visited{
+    color: brown;
+  }
+
+.question-link:hover{
+    color:rgb(255, 234, 0);
+  }
+
+  .question-link{
+    font-size: 20px;
+    font-family: 'Varela Round',sans-serif;
+  }
+
+  .btn {
+    background-color: #0056b3; /* Синий цвет */
+    color: black; /* Белый текст */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закругленные углы */
+    padding: 10px 20px; /* Внутренние отступы */
+    font-size: 16px; /* Размер текста */
+    font-weight: bold; /* Жирный текст */
+    cursor: pointer; /* Курсор в виде руки */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Анимация */
+}
+
+.btn:hover {
+    background-color: #fbff00; /* Более тёмный синий при наведении */
+    transform: scale(1.05); /* Увеличение при наведении */
+}
+
+.btn:active {
+    transform: scale(0.95); /* Уменьшение при нажатии */
+}
+#quesetion-2{
+    flex-direction: row;
+}
+.do-not-push{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+}

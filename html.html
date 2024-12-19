@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URCHAT</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="initial.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      /* Стили для изображений */
+      .question-bank {
+        margin-top: 20px;
+      }
+
+      .question {
+        margin-bottom: 40px;
+      }
+
+      /* Flexbox для выравнивания картинок в один ряд */
+      .question #question-2 .not.abel.to.push.btn {
+        display: flex;
+        justify-content: space-between; /* Равномерное распределение */
+        gap: 10px; /* Расстояние между элементами */
+        flex-wrap: wrap; /* Для адаптивности (перенос элементов при малых экранах) */
+      }
+
+      .question #question-2 .not.abel.to.push.btn img {
+        width: 170px;
+        height: auto; /* Сохраняем пропорции изображения */
+      }
+
+      /* Стили для ссылок */
+      a {
+        color: blue;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        color: green;
+      }
+
+      a:visited {
+        color: rgb(179, 36, 36);
+      }
+
+      /* Стили для навигационных ссылок */
+      .question-link {
+        font-size: 20px;
+        font-family: 'Varela Round', sans-serif;
+        margin: 10px;
+        color: #000;
+        transition: color 0.3s;
+      }
+
+      .question-link:hover {
+        color: rgb(255, 234, 0);
+      }
+
+      /* Стили для кнопки */
+      .btn {
+        background-color: #0056b3; /* Синий цвет */
+        color: black; /* Белый текст */
+        border: none; /* Без рамки */
+        border-radius: 5px; /* Закругленные углы */
+        padding: 10px 20px; /* Внутренние отступы */
+        font-size: 16px; /* Размер текста */
+        font-weight: bold; /* Жирный текст */
+        cursor: pointer; /* Курсор в виде руки */
+        transition: background-color 0.3s ease, transform 0.2s ease; /* Анимация */
+      }
+
+      .btn:hover {
+        background-color: #fbff00; /* Более тёмный синий при наведении */
+        transform: scale(1.05); /* Увеличение при наведении */
+      }
+
+      .btn:active {
+        transform: scale(0.95); /* Уменьшение при нажатии */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="Group 3 (1).png" alt="community" width="100px">
+      <a href="#question-1" class="question-link">Главная</a>
+      <a href="#question-2" class="question-link">Форум</a>
+      <a href="#question-3" class="question-link">Перейти в чат</a>
+      <a href="#question-4" class="question-link" href="jljsaljkfs" target="_blank" title="log in">Войти</a>
+    </div>
+
+    <div class="welcome">
+      <h1>Welcome to KIRGIZCHAT!</h1>
+      <p>Here you can chat with other users and make new friends!</p>
+    </div>
+
+    <div class="question-bank">
+      <div class="question" id="question-1">
+        <button class="btn">
+          start new chat
+        </button>
+        <h2>here you can see three stes of communication.</h2>
+        <div class="answer-bank">
+          <a class="answer" href="index.html">first </a>
+          <a class="answer" href="index.html">second </a>
+          <a class="answer" href="index.html">third</a>
+        </div>
+      </div>
+
+      <!--<h4>First step</h4>-->
+      <div id="question-2">
+        <div class="do-not-push">
+          <a class="sovet" href="index.html">
+            <div>
+              <img src="home.jpg" alt="" width="170px" title="dont push me">
+              <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+            </div>
+          </a>
+        </div>
+        <div class="do-not-push">
+          <a class="sovet" href="index.html"></a>
+            <div>
+              <img src="burana.jpg" alt="" width="170px" title="dont push me">
+              <p>bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla</p>
+            </div>
+          </a>
+        </div>
+        <div class="do-not-push">
+          <a class="sovet" href="index.html">
+            <div>
+              <img src="mountain.jpg" alt="" width="170px" title="dont push me">
+              <p>bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="question" id="question-3">
+       
+        
+        <h2 class="text-left">Every failure is not the end, but only a step on the path to success.
+             You can make mistakes, get off course, experience adversity - but it is not how many times you fall that matters,
+              but how many times you get up and keep moving forward.
+               All the great people we know have gone through many trials. It is not they who were the exception,
+                it is we who often put ourselves in a box, limit our possibilities and are afraid to make mistakes.
+                 But mistakes are part of the journey. They show us what not to do, how to improve, how to become better. 
+                 They give us lessons that ultimately lead us to a better result.</h2>
+        <div class="support">
+            
+        </div>
+      </div>
+
+      <div class="question" id="question-4">
+        <h4></h4>
+        <h2 class="social">if you have some qusetions you can ask us,
+             there out social networks.</h2>
+        <div class="icons">
+            <img src="inst.jpg" alt="" width="100px">
+            <img src="x.png" alt="" width="80px">
+            <img src="tiktok.png" alt="" width="100px">
+            <img src="youtube.png" alt="" width="80px">
+         <!-- <a class="answer" href="index.html">Disagree</a>
+          <a class="answer" href="index.html">Neutral</a>
+          <a class="answer" href="index.html">Agree</a>-->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
